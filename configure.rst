@@ -37,7 +37,9 @@ Fedora 15 or later), you will need to add these lines to
     sysfs           /sys            sysfs   defaults        0 0
     proc            /proc           proc    defaults        0 0
 
-For more information, see the :manpage:`fstab(5)` man page.
+For more information, see the `fstab(5)`_ man page.
+
+.. _fstab(5): http://linux.die.net/man/5/fstab
 
 
 --------------------------------------------
@@ -52,7 +54,9 @@ Anaconda::
     MAILADDR root
     AUTO +imsm +1.x -all
 
-For more information, see the :manpage:`mdadm.conf(5)` man page.
+For more information, see the `mdadm.conf(5)`_ man page.
+
+.. _mdadm.conf(5): http://linux.die.net/man/5/mdadm.conf
 
 
 ---------------------------------------------
@@ -62,7 +66,9 @@ LVM configuration (:file:`/etc/lvm/lvm.conf`)
 If you are using LVM, you will need to write
 :file:`/mnt/root/etc/lvm/lvm.conf`.
 
-For more information, see the :manpage:`lvm.conf(5)` man page.
+For more information, see the `lvm.conf(5)`_ man page.
+
+.. _lvm.conf(5): http://linux.die.net/man/5/lvm.conf
 
 
 -----------------------------------------------

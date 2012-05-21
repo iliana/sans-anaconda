@@ -14,8 +14,8 @@ Disk partitioning
 
    This manual assumes you are proficient with disk partitions and either the
    :command:`parted`, :command:`fdisk`, or :command:`cfdisk` utility. If not,
-   you may wish to read the `Linux Partition How-To`_ and the
-   :manpage:`cfdisk(8)` man page.
+   you may wish to read the `Linux Partition How-To`_ and the `cfdisk(8)`_ man
+   page.
 
 In general, Red Hat-based systems contain at least three partitions:
 
@@ -28,6 +28,7 @@ In general, Red Hat-based systems contain at least three partitions:
 
 Partition your disks appropriately. 
 
+.. _cfdisk(8): http://linux.die.net/man/8/cfdisk
 .. _Linux Partition How-To: http://www.faqs.org/docs/Linux-mini/Partition.html
 
 
